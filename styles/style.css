@@ -1,0 +1,38 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.start-football {
+  display: flex;
+}
+.content-title {
+  margin-left: 167px;
+  margin-top: 198px;
+  margin-bottom: 249px;
+  margin-right: 91px;
+}
+
+.banner-content img {
+  height: 428px;
+  width: 388px;
+  border: solid 3px transparent;
+}
+img:hover {
+  border-color: cyan;
+}
+.watch-live {
+  height: 44px;
+  width: 168px;
+  background-color: #e02c6d;
+  border: 2px transparent;
+  text-align: center;
+  padding: 6px;
+}
+.watch-live a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.watch-live:hover {
+  outline: 2px solid lightseagreen;
+}
