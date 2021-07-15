@@ -2,21 +2,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background-color: white;
 }
 .start-football {
   display: flex;
+  background-color: #2d25a0;
 }
 .content-title {
   margin-left: 167px;
   margin-top: 198px;
   margin-bottom: 249px;
-  margin-right: 91px;
+
+  color: white;
+}
+.title:hover {
+  text-decoration: underline lightseagreen;
+  outline: 2px solid orangered;
 }
 
 .banner-content img {
   height: 428px;
   width: 388px;
   border: solid 3px transparent;
+  margin-top: 144px;
+  margin-left: 91px;
+  margin-right: 148px;
+  margin-bottom: 95px;
 }
 img:hover {
   border-color: cyan;
@@ -35,4 +47,35 @@ img:hover {
 }
 .watch-live:hover {
   outline: 2px solid lightseagreen;
+}
+/* Styling Players */
+.player-detail .thumbnail img {
+  height: 256px;
+  width: 300px;
+  margin-top: 70px;
+}
+
+.player-detail {
+  border: solid 3px transparent;
+  width: 330px;
+  height: 474px;
+
+  overflow: hidden;
+}
+.player-detail:hover {
+  outline: 2px solid lightseagreen;
+}
+.list-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: solid 3px transparent;
+  margin-top: 70px;
+}
+.player-info {
+  display: flex;
+  flex-direction: column;
+}
+.player-khutinati {
+  width: 300px;
+  height: 426px;
 }
